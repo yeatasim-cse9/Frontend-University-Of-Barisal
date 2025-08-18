@@ -19,8 +19,13 @@ export default function Footer() {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg">BU</span>
+              <div className="flex items-center gap-2">
+                {/* Logo */}
+                <img
+                  src="/src/assets/logo.png"
+                  alt="CSE Department Logo"
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <div>
                 <h3 className="text-xl font-bold">CSE Department</h3>

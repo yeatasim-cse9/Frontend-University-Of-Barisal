@@ -1,13 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Layout/Header";
 import Footer from "./components/Layout/Footer";
-import Home from "./data/pages/Home";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
-const About = () => (
-  <div className="pt-20 min-h-screen flex justify-center items-center">
-    <h1 className="text-2xl">About Us Page Coming Soon</h1>
-  </div>
-);
 const Faculty = () => (
   <div className="pt-20 min-h-screen flex justify-center items-center">
     <h1 className="text-2xl">Faculty Page Coming Soon</h1>
