@@ -3,12 +3,8 @@ import Header from "./components/Layout/Header";
 import Footer from "./components/Layout/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Faculty from "./pages/Faculty";
 
-const Faculty = () => (
-  <div className="pt-20 min-h-screen flex justify-center items-center">
-    <h1 className="text-2xl">Faculty Page Coming Soon</h1>
-  </div>
-);
 const Programs = () => (
   <div className="pt-20 min-h-screen flex justify-center items-center">
     <h1 className="text-2xl">Programs Page Coming Soon</h1>
