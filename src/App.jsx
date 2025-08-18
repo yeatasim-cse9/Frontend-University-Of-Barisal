@@ -4,12 +4,8 @@ import Footer from "./components/Layout/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Faculty from "./pages/Faculty";
+import Programs from "./pages/Programs";
 
-const Programs = () => (
-  <div className="pt-20 min-h-screen flex justify-center items-center">
-    <h1 className="text-2xl">Programs Page Coming Soon</h1>
-  </div>
-);
 const Research = () => (
   <div className="pt-20 min-h-screen flex justify-center items-center">
     <h1 className="text-2xl">Research Page Coming Soon</h1>

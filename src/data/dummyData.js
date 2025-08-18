@@ -1,4 +1,8 @@
+// src/data/dummyData.js
+
+// =========================
 // Features Section (Homepage)
+// =========================
 export const features = [
   {
     title: "Quality Education",
@@ -6,7 +10,7 @@ export const features = [
       "Modern, updated, and practical CSE curriculum focused on real-world problem solving.",
     icon: "GraduationCap",
     image:
-      "https://images.unsplash.com/photo-1588072432836-e10032774350?w=1200&h=800&fit=crop", // classroom/learning
+      "https://images.unsplash.com/photo-1588072432836-e10032774350?w=1200&h=800&fit=crop",
   },
   {
     title: "Research Excellence",
@@ -14,7 +18,7 @@ export const features = [
       "Advanced research in AI, ML, Data Science & Software Engineering.",
     icon: "Brain",
     image:
-      "https://images.unsplash.com/photo-1554475901-4538ddfbccc2?w=1200&h=800&fit=crop", // research/graphs
+      "https://images.unsplash.com/photo-1554475901-4538ddfbccc2?w=1200&h=800&fit=crop",
   },
   {
     title: "Industry Connection",
@@ -22,7 +26,7 @@ export const features = [
       "Internship programs, seminars & career guidance in collaboration with tech industry.",
     icon: "Building",
     image:
-      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop", // networking/industry
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
   },
   {
     title: "Modern Facilities",
@@ -30,11 +34,13 @@ export const features = [
       "Rich computing labs, library access, and a dynamic campus environment.",
     icon: "Monitor",
     image:
-      "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=1200&h=800&fit=crop", // lab/monitors
+      "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=1200&h=800&fit=crop",
   },
 ];
 
+// =========================
 // Stats Section (Homepage)
+// =========================
 export const stats = [
   { label: "Students", value: "500+", icon: "Users" },
   { label: "Faculty", value: "12", icon: "User" },
@@ -42,7 +48,7 @@ export const stats = [
   { label: "Years of Excellence", value: "11", icon: "Award" },
 ];
 
-// Notices Section (Homepage & Marquee)
+// =========================
 export const notices = [
   {
     id: 1,
@@ -69,7 +75,9 @@ export const notices = [
   },
 ];
 
-// Testimonials Section (Homepage)
+// =========================
+// Testimonials Section
+// =========================
 export const testimonials = [
   {
     id: 1,
@@ -103,7 +111,9 @@ export const testimonials = [
   },
 ];
 
-// Events Section (Homepage)
+// =========================
+// Events Section
+// =========================
 export const events = [
   {
     id: 1,
@@ -135,7 +145,9 @@ export const events = [
   },
 ];
 
-// Achievements Section (Homepage)
+// =========================
+// Achievements Section
+// =========================
 export const achievements = [
   {
     title: "Best Department Award",
@@ -143,7 +155,7 @@ export const achievements = [
     year: "2024",
     icon: "Trophy",
     image:
-      "https://images.unsplash.com/photo-1598966733531-ef4bb7b2d9f3?w=1000&h=600&fit=crop", // trophy
+      "https://images.unsplash.com/photo-1598966733531-ef4bb7b2d9f3?w=1000&h=600&fit=crop",
   },
   {
     title: "Research Publication",
@@ -151,7 +163,7 @@ export const achievements = [
     year: "2024",
     icon: "FileText",
     image:
-      "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?w=1000&h=600&fit=crop", // papers/journals
+      "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?w=1000&h=600&fit=crop",
   },
   {
     title: "Industry Partnership",
@@ -159,7 +171,7 @@ export const achievements = [
     year: "2024",
     icon: "Handshake",
     image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1000&h=600&fit=crop", // handshake/team
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1000&h=600&fit=crop",
   },
   {
     title: "Student Placement",
@@ -167,11 +179,13 @@ export const achievements = [
     year: "2024",
     icon: "Target",
     image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000&h=600&fit=crop", // success/tech
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000&h=600&fit=crop",
   },
 ];
 
-// Lab Facilities Section (Homepage)
+// =========================
+// Lab Facilities Section
+// =========================
 export const labFacilities = [
   {
     name: "Programming Lab",
@@ -207,7 +221,9 @@ export const labFacilities = [
   },
 ];
 
-// Faculty Members (Homepage & Faculty Page)
+// =========================
+// Faculty Members
+// =========================
 export const facultyMembers = [
   {
     id: 1,
@@ -308,7 +324,9 @@ export const facultyMembers = [
   },
 ];
 
+// =========================
 // Academic Programs
+// =========================
 export const programs = {
   undergraduate: {
     title: "Bachelor of Science in Computer Science & Engineering",
@@ -333,7 +351,9 @@ export const programs = {
   },
 };
 
+// =========================
 // University Information
+// =========================
 export const universityInfo = {
   name: "University of Barishal",
   location: "Kornokathi, Barishal-8254, Bangladesh",
@@ -341,15 +361,14 @@ export const universityInfo = {
   phone: "+880431-2176860",
   email: "info@bu.ac.bd",
   website: "https://bu.ac.bd",
-  coordinates: {
-    lat: 22.701,
-    lng: 90.3535,
-  },
+  coordinates: { lat: 22.701, lng: 90.3535 },
   image:
-    "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&h=700&fit=crop", // campus-like
+    "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&h=700&fit=crop",
 };
 
+// =========================
 // About Page Data
+// =========================
 export const aboutInfo = {
   established: 2014,
   totalStudents: 500,
@@ -363,7 +382,9 @@ export const aboutInfo = {
     "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=1200&h=700&fit=crop",
 };
 
+// =========================
 // Why Choose Us (About Page)
+// =========================
 export const whyChooseUs = [
   {
     title: "Experienced Faculty",
@@ -415,7 +436,9 @@ export const whyChooseUs = [
   },
 ];
 
+// =========================
 // Infrastructure (About Page)
+// =========================
 export const infrastructure = [
   {
     name: "Academic Building",
@@ -468,7 +491,9 @@ export const infrastructure = [
   },
 ];
 
+// =========================
 // Future Goals (About Page)
+// =========================
 export const futureGoals = [
   {
     year: "2025",
@@ -492,7 +517,9 @@ export const futureGoals = [
   },
 ];
 
-// Department History Milestones (About Page)
+// =========================
+// Department History Milestones
+// =========================
 export const milestones = [
   {
     year: "2014",
@@ -529,5 +556,605 @@ export const milestones = [
     description: "Upgraded labs with latest technology and equipment",
     image:
       "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=1200&h=700&fit=crop",
+  },
+];
+
+// =========================
+// Detailed Program Information
+// =========================
+export const detailedPrograms = {
+  undergraduate: {
+    title: "Bachelor of Science in Computer Science & Engineering",
+    shortTitle: "B.Sc. in CSE",
+    duration: "4 Years",
+    credits: "160 Credits",
+    seats: 50,
+    establishment: 2014,
+    description:
+      "A comprehensive program designed to develop skilled computer scientists and engineers with strong theoretical foundation and practical skills.",
+    image:
+      "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=1200&h=700&fit=crop",
+    objectives: [
+      "Provide strong foundation in computer science fundamentals",
+      "Develop problem-solving and analytical thinking skills",
+      "Foster innovation and creativity in technology solutions",
+      "Prepare students for industry and higher education",
+    ],
+    highlights: [
+      "Industry-aligned curriculum",
+      "Hands-on project experience",
+      "Modern lab facilities",
+      "Expert faculty guidance",
+      "Internship opportunities",
+      "Research participation",
+    ],
+  },
+  postgraduate: {
+    title: "Master of Science in Computer Science & Engineering",
+    shortTitle: "M.Sc. in CSE",
+    duration: "2 Years",
+    credits: "32 Credits",
+    seats: 20,
+    establishment: 2014,
+    description:
+      "Advanced program focusing on research and specialized areas of computer science including AI, Machine Learning, and Software Engineering.",
+    image:
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=700&fit=crop",
+    objectives: [
+      "Advanced research in emerging technologies",
+      "Specialization in AI and Machine Learning",
+      "Publication in international journals",
+      "Industry collaboration projects",
+    ],
+    highlights: [
+      "Research-focused curriculum",
+      "Thesis supervision",
+      "Conference presentations",
+      "Industry partnerships",
+      "Scholarship opportunities",
+      "PhD preparation",
+    ],
+  },
+};
+
+// =========================
+// Course Structure (sample)
+// =========================
+export const courseStructure = {
+  undergraduate: {
+    semesters: [
+      {
+        semester: 1,
+        subjects: [
+          "Mathematics I",
+          "Physics I",
+          "Introduction to Programming",
+          "Computer Fundamentals",
+          "English",
+        ],
+      },
+      {
+        semester: 2,
+        subjects: [
+          "Mathematics II",
+          "Physics II",
+          "Programming in C",
+          "Digital Logic Design",
+          "Bangladeshi History & Culture",
+        ],
+      },
+      {
+        semester: 3,
+        subjects: [
+          "Data Structures",
+          "Object Oriented Programming",
+          "Computer Architecture",
+          "Statistics & Probability",
+          "Economics",
+        ],
+      },
+      {
+        semester: 4,
+        subjects: [
+          "Algorithms",
+          "Database Management Systems",
+          "Computer Networks",
+          "Software Engineering",
+          "Linear Algebra",
+        ],
+      },
+    ],
+  },
+};
+
+// =========================
+// Admission Requirements
+// =========================
+export const admissionRequirements = {
+  undergraduate: {
+    eligibility: [
+      "SSC & HSC with minimum GPA 5.00 (combined GPA 8.00)",
+      "Must have Physics, Chemistry, Mathematics in HSC",
+      "Age limit: Maximum 25 years",
+      "Pass admission test conducted by the university",
+    ],
+    process: [
+      "Online application submission",
+      "Admission test (MCQ + Written)",
+      "Merit list publication",
+      "Document verification",
+      "Fee payment & enrollment",
+    ],
+    documents: [
+      "SSC & HSC certificates",
+      "Academic transcripts",
+      "Birth certificate",
+      "Passport size photographs",
+      "Medical certificate",
+    ],
+  },
+  postgraduate: {
+    eligibility: [
+      "Bachelor's degree in CSE/EEE/ICE with minimum CGPA 3.00",
+      "Must have programming background",
+      "Age limit: Maximum 30 years",
+      "Pass admission test and interview",
+    ],
+    process: [
+      "Online application with research proposal",
+      "Admission test (Technical + Analytical)",
+      "Interview with faculty panel",
+      "Merit list based on combined score",
+      "Enrollment and thesis supervisor assignment",
+    ],
+    documents: [
+      "Bachelor's degree certificate",
+      "Official transcripts",
+      "Research proposal (2-3 pages)",
+      "Recommendation letters (2)",
+      "CV and portfolio",
+    ],
+  },
+};
+
+// =========================
+// Career Prospects
+// =========================
+export const careerProspects = [
+  {
+    title: "Software Engineer",
+    description: "Design and develop software applications",
+    companies: ["Google", "Microsoft", "Meta", "Amazon"],
+    salary: "৳50,000 - ৳1,50,000/month",
+    icon: "Code",
+  },
+  {
+    title: "Data Scientist",
+    description: "Analyze data to derive business insights",
+    companies: ["Netflix", "Uber", "Airbnb", "LinkedIn"],
+    salary: "৳60,000 - ৳2,00,000/month",
+    icon: "BarChart",
+  },
+  {
+    title: "AI/ML Engineer",
+    description: "Build intelligent systems and algorithms",
+    companies: ["OpenAI", "DeepMind", "Tesla", "NVIDIA"],
+    salary: "৳80,000 - ৳3,00,000/month",
+    icon: "Brain",
+  },
+  {
+    title: "Cybersecurity Specialist",
+    description: "Protect systems from security threats",
+    companies: ["IBM", "Cisco", "Palo Alto", "CrowdStrike"],
+    salary: "৳70,000 - ৳2,50,000/month",
+    icon: "Shield",
+  },
+  {
+    title: "Product Manager",
+    description: "Lead product development and strategy",
+    companies: ["Apple", "Spotify", "Slack", "Zoom"],
+    salary: "৳90,000 - ৳3,50,000/month",
+    icon: "Users",
+  },
+  {
+    title: "DevOps Engineer",
+    description: "Manage deployment and infrastructure",
+    companies: ["Docker", "Kubernetes", "AWS", "GCP"],
+    salary: "৳60,000 - ৳2,20,000/month",
+    icon: "Server",
+  },
+];
+
+// =========================
+export const programFeatures = [
+  {
+    title: "Modern Curriculum",
+    description:
+      "Updated syllabus covering latest technologies and industry trends",
+    icon: "BookOpen",
+    image:
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1000&h=600&fit=crop",
+  },
+  {
+    title: "Industry Projects",
+    description: "Real-world projects in collaboration with tech companies",
+    icon: "Building",
+    image:
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000&h=600&fit=crop",
+  },
+  {
+    title: "Research Opportunities",
+    description: "Participate in cutting-edge research with faculty members",
+    icon: "Search",
+    image:
+      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1000&h=600&fit=crop",
+  },
+  {
+    title: "Internship Programs",
+    description: "Guaranteed internship placement in top technology companies",
+    icon: "Briefcase",
+    image:
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1000&h=600&fit=crop",
+  },
+];
+
+// Class Routines Data
+export const classRoutines = {
+  "1st Year": {
+    "1st Semester": [
+      {
+        time: "8:00-9:30",
+        sunday: "Math I",
+        monday: "Physics I",
+        tuesday: "Programming",
+        wednesday: "Math I",
+        thursday: "English",
+      },
+      {
+        time: "9:30-11:00",
+        sunday: "Physics I",
+        monday: "Programming",
+        tuesday: "Math I",
+        wednesday: "Computer Fund.",
+        thursday: "Physics I",
+      },
+      {
+        time: "11:00-12:30",
+        sunday: "Programming",
+        monday: "English",
+        tuesday: "Computer Fund.",
+        wednesday: "Programming",
+        thursday: "Math I",
+      },
+      {
+        time: "2:00-3:30",
+        sunday: "Lab",
+        monday: "Lab",
+        tuesday: "Lab",
+        wednesday: "Lab",
+        thursday: "Free",
+      },
+    ],
+    "2nd Semester": [
+      {
+        time: "8:00-9:30",
+        sunday: "Math II",
+        monday: "Physics II",
+        tuesday: "C Programming",
+        wednesday: "Digital Logic",
+        thursday: "History",
+      },
+      {
+        time: "9:30-11:00",
+        sunday: "Physics II",
+        monday: "C Programming",
+        tuesday: "Math II",
+        wednesday: "Physics II",
+        thursday: "Digital Logic",
+      },
+      {
+        time: "11:00-12:30",
+        sunday: "C Programming",
+        monday: "History",
+        tuesday: "Digital Logic",
+        wednesday: "C Programming",
+        thursday: "Math II",
+      },
+      {
+        time: "2:00-3:30",
+        sunday: "Lab",
+        monday: "Lab",
+        tuesday: "Lab",
+        wednesday: "Lab",
+        thursday: "Free",
+      },
+    ],
+  },
+  "2nd Year": {
+    "3rd Semester": [
+      {
+        time: "8:00-9:30",
+        sunday: "Data Structure",
+        monday: "OOP",
+        tuesday: "Computer Arch.",
+        wednesday: "Statistics",
+        thursday: "Economics",
+      },
+      {
+        time: "9:30-11:00",
+        sunday: "OOP",
+        monday: "Computer Arch.",
+        tuesday: "Data Structure",
+        wednesday: "OOP",
+        thursday: "Statistics",
+      },
+      {
+        time: "11:00-12:30",
+        sunday: "Computer Arch.",
+        monday: "Economics",
+        tuesday: "Statistics",
+        wednesday: "Data Structure",
+        thursday: "OOP",
+      },
+      {
+        time: "2:00-3:30",
+        sunday: "Lab",
+        monday: "Lab",
+        tuesday: "Lab",
+        wednesday: "Lab",
+        thursday: "Project",
+      },
+    ],
+    "4th Semester": [
+      {
+        time: "8:00-9:30",
+        sunday: "Algorithms",
+        monday: "DBMS",
+        tuesday: "Networks",
+        wednesday: "Software Eng.",
+        thursday: "Linear Algebra",
+      },
+      {
+        time: "9:30-11:00",
+        sunday: "DBMS",
+        monday: "Networks",
+        tuesday: "Algorithms",
+        wednesday: "DBMS",
+        thursday: "Software Eng.",
+      },
+      {
+        time: "11:00-12:30",
+        sunday: "Networks",
+        monday: "Linear Algebra",
+        tuesday: "Software Eng.",
+        wednesday: "Algorithms",
+        thursday: "DBMS",
+      },
+      {
+        time: "2:00-3:30",
+        sunday: "Lab",
+        monday: "Lab",
+        tuesday: "Lab",
+        wednesday: "Lab",
+        thursday: "Project",
+      },
+    ],
+  },
+};
+
+// Academic Calendar Events
+export const academicCalendar = [
+  {
+    date: "2025-09-01",
+    title: "Fall Semester Begins",
+    type: "semester",
+    description: "Classes start for Fall 2025 semester",
+  },
+  {
+    date: "2025-09-15",
+    title: "Add/Drop Deadline",
+    type: "deadline",
+    description: "Last date to add or drop courses",
+  },
+  {
+    date: "2025-10-15",
+    title: "Mid-term Exams",
+    type: "exam",
+    description: "Mid-semester examinations begin",
+  },
+  {
+    date: "2025-11-10",
+    title: "Programming Contest",
+    type: "event",
+    description: "Annual inter-university programming contest",
+  },
+  {
+    date: "2025-12-01",
+    title: "Final Exams",
+    type: "exam",
+    description: "Final semester examinations begin",
+  },
+  {
+    date: "2025-12-20",
+    title: "Winter Break Begins",
+    type: "holiday",
+    description: "Semester break starts",
+  },
+];
+
+// Student Clubs & Activities
+export const studentClubs = [
+  {
+    name: "BU CSE Programming Club",
+    description: "Competitive programming, hackathons, and coding workshops",
+    members: 120,
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+    activities: [
+      "Weekly contests",
+      "Hackathons",
+      "Workshops",
+      "Industry visits",
+    ],
+  },
+  {
+    name: "Tech Innovation Club",
+    description: "Focus on emerging technologies, AI, and innovation projects",
+    members: 85,
+    image:
+      "https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=800&h=600&fit=crop",
+    activities: [
+      "AI projects",
+      "Tech talks",
+      "Innovation fair",
+      "Research collaboration",
+    ],
+  },
+  {
+    name: "Robotics & Automation Club",
+    description:
+      "Robotics competitions, automation projects, and technical exhibitions",
+    members: 65,
+    image:
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop",
+    activities: [
+      "Robot competitions",
+      "Automation projects",
+      "Technical exhibitions",
+      "Arduino workshops",
+    ],
+  },
+  {
+    name: "Cyber Security Club",
+    description:
+      "Ethical hacking, cybersecurity awareness, and protection strategies",
+    members: 45,
+    image:
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop",
+    activities: [
+      "CTF competitions",
+      "Security workshops",
+      "Awareness campaigns",
+      "Penetration testing",
+    ],
+  },
+];
+
+// Campus Life Images
+export const campusLife = [
+  {
+    title: "Modern Computer Labs",
+    image:
+      "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=1200&h=800&fit=crop",
+    description: "State-of-the-art computing facilities",
+  },
+  {
+    title: "Campus Events",
+    image:
+      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&h=800&fit=crop",
+    description: "Regular seminars and cultural programs",
+  },
+  {
+    title: "Library & Study Areas",
+    image:
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&h=800&fit=crop",
+    description: "Quiet spaces for study and research",
+  },
+  {
+    title: "Sports & Recreation",
+    image:
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=800&fit=crop",
+    description: "Sports facilities and recreational activities",
+  },
+  {
+    title: "Student Activities",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop",
+    description: "Active student clubs and organizations",
+  },
+  {
+    title: "Campus Environment",
+    image:
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&h=800&fit=crop",
+    description: "Beautiful and peaceful campus atmosphere",
+  },
+];
+
+// Student Support Services
+export const studentServices = [
+  {
+    title: "Academic Advising",
+    description:
+      "Personalized guidance for course selection and academic planning",
+    icon: "GraduationCap",
+    contact: "academic.advisor@bu.ac.bd",
+  },
+  {
+    title: "Career Counseling",
+    description:
+      "Career guidance, resume building, and job placement assistance",
+    icon: "Briefcase",
+    contact: "career.services@bu.ac.bd",
+  },
+  {
+    title: "Mental Health Support",
+    description: "Counseling services and mental wellness programs",
+    icon: "Heart",
+    contact: "counselor@bu.ac.bd",
+  },
+  {
+    title: "Financial Aid",
+    description: "Scholarships, financial assistance, and payment plan options",
+    icon: "DollarSign",
+    contact: "financial.aid@bu.ac.bd",
+  },
+  {
+    title: "Technical Support",
+    description: "IT help desk, software access, and technical troubleshooting",
+    icon: "Settings",
+    contact: "tech.support@bu.ac.bd",
+  },
+  {
+    title: "Library Services",
+    description: "Research assistance, digital resources, and study spaces",
+    icon: "BookOpen",
+    contact: "library@bu.ac.bd",
+  },
+];
+
+// Alumni Success Stories
+export const alumniStories = [
+  {
+    name: "Md. Shahidul Islam",
+    batch: "2018",
+    position: "Senior Software Engineer at Google",
+    company: "Google",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+    story:
+      "The strong foundation I got from BU CSE helped me land my dream job at Google. The practical approach to learning made all the difference.",
+    achievement: "Led 3 major projects at Google, 50+ team members",
+  },
+  {
+    name: "Fatema Rahman",
+    batch: "2019",
+    position: "AI Research Scientist at Meta",
+    company: "Meta",
+    image:
+      "https://images.unsplash.com/photo-1494790108755-2616b612b0e5?w=400&h=400&fit=crop",
+    story:
+      "The research opportunities at BU CSE sparked my interest in AI. Today, I'm working on cutting-edge AI projects that impact millions of users.",
+    achievement: "Published 12 research papers, Filed 5 patents",
+  },
+  {
+    name: "Ahmed Hassan",
+    batch: "2020",
+    position: "Founder & CEO",
+    company: "TechStart Bangladesh",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    story:
+      "BU CSE taught me not just programming, but problem-solving. I used these skills to start my own tech company, now employing 50+ developers.",
+    achievement: "Built $2M+ revenue company, Created 50+ jobs",
   },
 ];
