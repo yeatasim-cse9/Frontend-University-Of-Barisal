@@ -95,7 +95,7 @@ export const testimonials = [
     message:
       "The research opportunities and modern curriculum at BU CSE prepared me for the global tech industry.",
     image:
-      "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 3,
@@ -1051,7 +1051,7 @@ export const campusLife = [
   {
     title: "Campus Events",
     image:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Regular seminars and cultural programs",
   },
   {
@@ -1141,7 +1141,7 @@ export const alumniStories = [
     position: "AI Research Scientist at Meta",
     company: "Meta",
     image:
-      "https://images.unsplash.com/photo-1494790108755-2616b612b0e5?w=400&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     story:
       "The research opportunities at BU CSE sparked my interest in AI. Today, I'm working on cutting-edge AI projects that impact millions of users.",
     achievement: "Published 12 research papers, Filed 5 patents",
@@ -1182,7 +1182,7 @@ export const researchAreas = [
     image:
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=700&fit=crop",
     projects: 6,
-    faculty: ["Md. Manjur Ahmed", "Md. Irfanul Alam"],
+    faculty: ["Md. Manjur Ahmed", "Md. Erfan"],
     keywords: [
       "Software Architecture",
       "Agile Development",
@@ -1199,7 +1199,7 @@ export const researchAreas = [
     image:
       "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=700&fit=crop",
     projects: 5,
-    faculty: ["Md. Mahbub Hasan", "S.A.M. Shamsul Arefin"],
+    faculty: ["Md. Mahbub Hasan", "Md. Samsuddoha"],
     keywords: [
       "Network Security",
       "Encryption",
@@ -1216,7 +1216,7 @@ export const researchAreas = [
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=700&fit=crop",
     projects: 4,
-    faculty: ["Md. Mostafijur Rahman", "Tania Akter"],
+    faculty: ["Md. Mostafijur Rahman", "Tania Islam"],
     keywords: ["Big Data", "Data Mining", "Cloud Computing", "NoSQL"],
   },
   {
@@ -1228,7 +1228,7 @@ export const researchAreas = [
     image:
       "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=1200&h=700&fit=crop",
     projects: 3,
-    faculty: ["Tania Akter", "Sohely Sharmin"],
+    faculty: ["Tania Islam", "Sohely jahan"],
     keywords: ["UX Design", "Accessibility", "Usability", "Interface Design"],
   },
   {
@@ -1240,7 +1240,7 @@ export const researchAreas = [
     image:
       "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&h=700&fit=crop",
     projects: 7,
-    faculty: ["Md. Rashid Al Asif", "Md. Irfanul Alam"],
+    faculty: ["Md. Rashid Al Asif", "Md. Erfan"],
     keywords: ["Mobile Development", "PWA", "React Native", "Flutter"],
   },
 ];
@@ -1279,12 +1279,8 @@ export const researchProjects = [
     title: "Blockchain-Based Secure Voting System",
     description:
       "Creating a transparent and tamper-proof electronic voting system using blockchain technology for democratic processes",
-    leadResearcher: "Md. Mahbub Hasan",
-    collaborators: [
-      "S.A.M. Shamsul Arefin",
-      "1 PhD Student",
-      "4 Undergrad Students",
-    ],
+    leadResearcher: "Md. Mahbub E Noor",
+    collaborators: ["Md Samsuddoha", "1 PhD Student", "4 Undergrad Students"],
     startDate: "2024-03-01",
     endDate: "2025-08-31",
     status: "In Progress",
@@ -1302,11 +1298,7 @@ export const researchProjects = [
     description:
       "Intelligent traffic control system using IoT sensors and AI algorithms to optimize traffic flow in urban areas",
     leadResearcher: "Md. Mostafijur Rahman",
-    collaborators: [
-      "Md. Irfanul Alam",
-      "3 Master's Students",
-      "6 Undergrad Students",
-    ],
+    collaborators: ["Md. Erfan", "3 Master's Students", "6 Undergrad Students"],
     startDate: "2023-09-01",
     endDate: "2025-12-31",
     status: "In Progress",
@@ -1323,7 +1315,7 @@ export const researchProjects = [
     title: "Natural Language Processing for Bengali Text Analysis",
     description:
       "Advanced NLP techniques for Bengali language processing, sentiment analysis, and text summarization",
-    leadResearcher: "Tania Akter",
+    leadResearcher: "Tania Islam",
     collaborators: [
       "Sohely Sharmin",
       "2 Master's Students",
@@ -1417,7 +1409,7 @@ export const researchPublications = [
     id: 1,
     title:
       "Deep Learning Approaches for Early Stage Cancer Detection in Medical Imaging",
-    authors: ["Dr. Rahat Hossain Faisal", "Md. Manjur Ahmed", "Sarah Johnson"],
+    authors: ["Dr. Rahat Hossain Faisal", "Md. Manjur Ahmed"],
     journal: "IEEE Transactions on Medical Imaging",
     year: "2024",
     type: "Journal Article",
@@ -1435,7 +1427,7 @@ export const researchPublications = [
   {
     id: 2,
     title: "Blockchain-Based Secure Authentication System for IoT Devices",
-    authors: ["Md. Mahbub Hasan", "S.A.M. Shamsul Arefin", "Alex Chen"],
+    authors: ["Md. Mahbub Hasan", "Md Samsuddoha"],
     journal: "Computer Networks",
     year: "2024",
     type: "Journal Article",
@@ -1454,7 +1446,7 @@ export const researchPublications = [
     id: 3,
     title:
       "Optimizing Traffic Flow in Smart Cities using Reinforcement Learning",
-    authors: ["Md. Mostafijur Rahman", "Md. Irfanul Alam", "Lisa Wang"],
+    authors: ["Md. Mostafijur Rahman", "Md. Erfan"],
     journal: "Transportation Research Part C",
     year: "2024",
     type: "Journal Article",
@@ -1473,7 +1465,7 @@ export const researchPublications = [
     id: 4,
     title:
       "Natural Language Processing for Bengali Social Media Sentiment Analysis",
-    authors: ["Tania Akter", "Sohely Sharmin", "Rajesh Kumar"],
+    authors: ["Tania Islam", "Sohely Jahan"],
     journal: "ACM Transactions on Asian Language Processing",
     year: "2023",
     type: "Journal Article",
@@ -1486,7 +1478,7 @@ export const researchPublications = [
   {
     id: 5,
     title: "Usability Study of Mobile Banking Applications in Bangladesh",
-    authors: ["Tania Akter", "Dr. Rahat Hossain Faisal"],
+    authors: ["Tania Islam", "Dr. Rahat Hossain Faisal"],
     journal: "International Journal of Human-Computer Studies",
     year: "2023",
     type: "Journal Article",
