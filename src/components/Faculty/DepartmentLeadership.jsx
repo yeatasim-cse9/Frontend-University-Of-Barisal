@@ -7,8 +7,7 @@ export default function DepartmentLeadership() {
     designation: "Associate Professor & Chairman",
     phone: "+8801733977761",
     email: "rhfaisal@bu.ac.bd",
-    image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/167271.jpg",
     specialization: "Machine Learning, Data Mining",
     education: "PhD in Computer Science",
     message:

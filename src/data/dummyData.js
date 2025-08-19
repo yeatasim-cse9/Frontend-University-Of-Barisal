@@ -229,8 +229,7 @@ export const facultyMembers = [
     designation: "Associate Professor & Chairman",
     phone: "+8801733977761",
     email: "rhfaisal@bu.ac.bd",
-    image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/167271.jpg",
     specialization: "Machine Learning, Data Mining",
     education: "PhD in Computer Science",
   },
@@ -240,8 +239,7 @@ export const facultyMembers = [
     designation: "Associate Professor",
     phone: "01739097182",
     email: "manjur_39@yahoo.com",
-    image:
-      "https://images.unsplash.com/photo-1603415526960-f7e0328f6e6c?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/991732.jpg",
     specialization: "Software Engineering",
     education: "MSc in Computer Science",
   },
@@ -251,8 +249,7 @@ export const facultyMembers = [
     designation: "Lecturer",
     phone: "01734094560",
     email: "mahbub0601001@gmail.com",
-    image:
-      "https://images.unsplash.com/photo-1614436163996-25cee5f633d0?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/618753.jpg",
     specialization: "Network Security",
     education: "MSc in Computer Science",
   },
@@ -262,8 +259,7 @@ export const facultyMembers = [
     designation: "Assistant Professor",
     phone: "01739097182",
     email: "tania.bd.09@gmail.com",
-    image:
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/861980.png",
     specialization: "Human Computer Interaction",
     education: "MSc in Computer Science",
   },
@@ -273,8 +269,7 @@ export const facultyMembers = [
     designation: "Assistant Professor",
     phone: "01739097182",
     email: "mostafij.csebu@gmail.com",
-    image:
-      "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/147741.png",
     specialization: "Database Systems",
     education: "MSc in Computer Science",
   },
@@ -284,8 +279,7 @@ export const facultyMembers = [
     designation: "Lecturer",
     phone: "01799598455",
     email: "irfan.bucse@gmail.com",
-    image:
-      "https://images.unsplash.com/photo-1531123414780-f742d3cb7413?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/IMG-20250608-WA0001.jpg",
     specialization: "Web Development",
     education: "MSc in Computer Science",
   },
@@ -295,8 +289,7 @@ export const facultyMembers = [
     designation: "Assistant Professor",
     phone: "01737349075",
     email: "sams.csebu@gmail.com",
-    image:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/445989.jpg",
     specialization: "Algorithms, Data Structures",
     education: "MSc in Computer Science",
   },
@@ -306,8 +299,7 @@ export const facultyMembers = [
     designation: "Assistant Professor",
     phone: "01317419066",
     email: "sohely.cse@gmail.com",
-    image:
-      "https://images.unsplash.com/photo-1544005316-04ce3e4a62b9?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/621998.jpg",
     specialization: "Computer Graphics",
     education: "MSc in Computer Science",
   },
@@ -317,8 +309,7 @@ export const facultyMembers = [
     designation: "Assistant Professor",
     phone: "01734528367",
     email: "rashid.al.asif@gmail.com",
-    image:
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=500&h=500&fit=crop",
+    image: "https://bu.ac.bd/webform/user_images/24973.jpg",
     specialization: "Mobile App Development",
     education: "MSc in Computer Science",
   },
