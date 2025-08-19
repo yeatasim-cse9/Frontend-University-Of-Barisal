@@ -1,7 +1,5 @@
 import { useMemo } from "react";
 import { events } from "../../data/dummyData";
-import { motion } from "framer-motion";
-import { Calendar, MapPin, ArrowRight } from "lucide-react";
 
 function slugify(str) {
   return String(str)
@@ -11,14 +9,13 @@ function slugify(str) {
 }
 
 function parseEventDate(d) {
-  // Supports formats like "September 15, 2025"
   const dt = new Date(d);
   return isNaN(dt.getTime()) ? null : dt;
 }
 
 function formatEventDate(d) {
   const dt = parseEventDate(d);
-  if (!dt) return d; // fallback to original
+  if (!dt) return d;
   return dt.toLocaleDateString(undefined, {
     year: "numeric",
     month: "short",
@@ -27,139 +24,107 @@ function formatEventDate(d) {
 }
 
 export default function Events({ limit = 6 }) {
-  const today = new Date();
-
   const upcoming = useMemo(() => {
-    return events
-      .map((e) => ({ ...e, _date: parseEventDate(e.date) }))
-      .filter((e) => !e._date || e._date >= new Date(today.toDateString())) // keep if date missing or in the future
-      .sort((a, b) => {
-        if (!a._date && !b._date) return 0;
-        if (!a._date) return 1;
-        if (!b._date) return -1;
-        return a._date - b._date;
-      })
-      .slice(0, limit);
+    const startOfToday = new Date();
+    startOfToday.setHours(0, 0, 0, 0);
+
+    return (
+      events
+        .map((e) => ({ ...e, _date: parseEventDate(e.date) }))
+        // keep undated or future-dated
+        .filter((e) => !e._date || e._date >= startOfToday)
+        // chronological; undated at the end
+        .sort((a, b) => {
+          if (!a._date && !b._date) return 0;
+          if (!a._date) return 1;
+          if (!b._date) return -1;
+          return a._date - b._date;
+        })
+        .slice(0, limit)
+    );
   }, [limit]);
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-6">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <div className="inline-block bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              UPCOMING EVENTS
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Latest <span className="text-blue-600">Events & Activities</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Join us in exciting events, competitions, and learning
-              opportunities
-            </p>
-          </motion.div>
+    <section className="py-16">
+      <div className="container mx-auto px-4">
+        {/* header */}
+        <div className="text-center mb-8">
+          <span className="inline-block rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700">
+            UPCOMING EVENTS
+          </span>
+          <h2 className="mt-3 text-2xl md:text-3xl font-semibold tracking-tight">
+            Latest Events & Activities
+          </h2>
+          <p className="mt-2 text-gray-600">
+            Join workshops, talks, and competitions across our community.
+          </p>
         </div>
 
-        {/* Grid */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {upcoming.map((event, idx) => {
+        {/* grid */}
+        <div className="grid gap-6 md:grid-cols-3">
+          {upcoming.map((event) => {
             const href = `/events/${event.id ?? slugify(event.title)}`;
             const dateText = formatEventDate(event.date);
             const location = event.location || "BU Campus";
 
             return (
-              <motion.a
+              <a
                 key={event.id ?? event.title}
                 href={href}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: idx * 0.08 }}
-                viewport={{ once: true }}
-                className="group block"
+                className="group block rounded-xl border border-gray-200 bg-white overflow-hidden transition hover:shadow-md"
                 aria-label={`Learn more about ${event.title}`}
               >
-                <article className="rounded-3xl overflow-hidden border border-gray-100 bg-white shadow-sm transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-lg">
-                  {/* Media */}
-                  <div className="relative h-48 bg-gray-100">
-                    {event.image ? (
-                      <img
-                        src={event.image}
-                        alt={event.title}
-                        className="absolute inset-0 h-full w-full object-cover"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <div className="absolute inset-0 grid place-items-center text-gray-400">
-                        <Calendar className="w-8 h-8" />
-                      </div>
-                    )}
+                {event.image ? (
+                  <div className="h-40 bg-gray-100">
+                    <img
+                      src={event.image}
+                      alt={event.title}
+                      className="h-full w-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                ) : null}
 
-                    {/* Overlay & category */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-90" />
+                <div className="p-5">
+                  <div className="mb-2 flex flex-wrap items-center gap-2 text-xs text-gray-500">
                     {event.category && (
-                      <div className="absolute top-4 left-4">
-                        <span className="bg-white/90 px-3 py-1 rounded-full text-sm font-semibold text-gray-900">
-                          {event.category}
-                        </span>
-                      </div>
-                    )}
-                    <div className="absolute bottom-4 right-4 w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                      <Calendar className="w-5 h-5 text-white" />
-                    </div>
-                  </div>
-
-                  {/* Body */}
-                  <div className="p-6">
-                    <div className="mb-2 flex items-center gap-2 text-blue-600 text-sm font-medium">
-                      <Calendar className="w-4 h-4" />
-                      {dateText}
-                    </div>
-
-                    <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                      {event.title}
-                    </h3>
-
-                    {event.description && (
-                      <p className="text-gray-600 leading-relaxed mb-6 line-clamp-3">
-                        {event.description}
-                      </p>
-                    )}
-
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2 text-gray-500">
-                        <MapPin className="w-4 h-4" />
-                        <span className="text-sm">{location}</span>
-                      </div>
-
-                      <span className="flex items-center gap-2 text-blue-600 font-medium opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-                        <span>Learn More</span>
-                        <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                      <span className="rounded-full bg-gray-100 px-2 py-0.5 font-medium">
+                        {event.category}
                       </span>
-                    </div>
+                    )}
+                    {event.date && <span>{dateText}</span>}
                   </div>
-                </article>
-              </motion.a>
+
+                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2">
+                    {event.title}
+                  </h3>
+
+                  {event.description && (
+                    <p className="mt-2 text-sm text-gray-600 line-clamp-3">
+                      {event.description}
+                    </p>
+                  )}
+
+                  <div className="mt-4 flex items-center justify-between text-sm">
+                    <span className="text-gray-500">{location}</span>
+                    <span className="text-blue-600 group-hover:underline">
+                      Learn more →
+                    </span>
+                  </div>
+                </div>
+              </a>
             );
           })}
         </div>
 
-        {/* Optional: View all */}
-        <div className="mt-12 text-center">
-          <motion.a
+        {/* view all */}
+        <div className="mt-8 text-center">
+          <a
             href="/events"
-            className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 font-semibold text-white shadow-sm transition-colors hover:bg-blue-700"
-            whileHover={{ scale: 1.04 }}
-            whileTap={{ scale: 0.96 }}
+            className="inline-flex items-center gap-2 rounded-full border border-gray-300 px-5 py-2.5 text-sm font-medium text-gray-900 hover:border-gray-400"
           >
-            View All Events
-            <ArrowRight className="h-5 w-5" />
-          </motion.a>
+            View all events →
+          </a>
         </div>
       </div>
     </section>

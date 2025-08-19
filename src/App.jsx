@@ -8,6 +8,7 @@ import Programs from "./pages/Programs";
 import Students from "./pages/Students";
 import Research from "./pages/Research";
 import Contact from "./pages/Contact";
+import EventsPage from "./pages/EventsPage"; // ✅ Added import
 
 export default function App() {
   return (
@@ -23,6 +24,8 @@ export default function App() {
             <Route path="/students" element={<Students />} />
             <Route path="/research" element={<Research />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/events" element={<EventsPage />} />{" "}
+            {/* ✅ Added route */}
           </Routes>
         </main>
         <Footer />

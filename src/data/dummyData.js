@@ -141,6 +141,76 @@ export const events = [
     image:
       "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=1200&h=700&fit=crop",
   },
+  {
+    id: 4,
+    title: "Hackathon 2025: Build for Bangladesh",
+    date: "October 10, 2025",
+    category: "Hackathon",
+    description:
+      "48-hour hackathon where students develop solutions for social and technical challenges.",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=700&fit=crop",
+  },
+  {
+    id: 5,
+    title: "Career Fair 2025",
+    date: "November 02, 2025",
+    category: "Career",
+    description:
+      "Top tech companies visit BU to recruit interns and graduates. Don’t miss networking opportunities!",
+    image:
+      "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&h=700&fit=crop",
+  },
+  {
+    id: 6,
+    title: "Workshop: Cloud Computing with AWS",
+    date: "August 28, 2025",
+    category: "Workshop",
+    description:
+      "Hands-on workshop on AWS cloud services, deployment, and scalability.",
+    image:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&h=700&fit=crop",
+  },
+  {
+    id: 7,
+    title: "Cultural Night 2025",
+    date: "December 05, 2025",
+    category: "Cultural",
+    description:
+      "An evening of music, drama, dance, and cultural performances by BU students.",
+    image:
+      "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?w=1200&h=700&fit=crop",
+  },
+  {
+    id: 8,
+    title: "Alumni Meet 2025",
+    date: "December 20, 2025",
+    category: "Alumni",
+    description:
+      "Reunion of CSE alumni to share experiences, guidance, and networking.",
+    image:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1200&h=700&fit=crop",
+  },
+  {
+    id: 9,
+    title: "Robotics Exhibition",
+    date: "September 25, 2025",
+    category: "Exhibition",
+    description:
+      "Showcase of student-built robots and automation projects at BU campus.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1742926579467-2d57159e3bec?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 10,
+    title: "Cybersecurity Awareness Week",
+    date: "October 20, 2025",
+    category: "Awareness",
+    description:
+      "Week-long campaign on digital safety, ethical hacking, and online privacy.",
+    image:
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=700&fit=crop",
+  },
 ];
 
 // =========================
