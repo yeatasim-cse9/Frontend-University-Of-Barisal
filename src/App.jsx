@@ -5,15 +5,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Faculty from "./pages/Faculty";
 import Programs from "./pages/Programs";
+import Students from "./pages/Students";
 
 const Research = () => (
   <div className="pt-20 min-h-screen flex justify-center items-center">
     <h1 className="text-2xl">Research Page Coming Soon</h1>
-  </div>
-);
-const Students = () => (
-  <div className="pt-20 min-h-screen flex justify-center items-center">
-    <h1 className="text-2xl">Students Page Coming Soon</h1>
   </div>
 );
 const Contact = () => (
@@ -33,8 +29,8 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/faculty" element={<Faculty />} />
             <Route path="/programs" element={<Programs />} />
-            <Route path="/research" element={<Research />} />
             <Route path="/students" element={<Students />} />
+            <Route path="/research" element={<Research />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
