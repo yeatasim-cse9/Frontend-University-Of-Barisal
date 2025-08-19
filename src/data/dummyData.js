@@ -1158,3 +1158,387 @@ export const alumniStories = [
     achievement: "Built $2M+ revenue company, Created 50+ jobs",
   },
 ];
+
+// Research Areas
+export const researchAreas = [
+  {
+    id: 1,
+    title: "Artificial Intelligence & Machine Learning",
+    description:
+      "Advanced research in neural networks, deep learning, computer vision, and natural language processing",
+    icon: "Brain",
+    image:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=700&fit=crop",
+    projects: 8,
+    faculty: ["Dr. Rahat Hossain Faisal", "Md. Manjur Ahmed"],
+    keywords: ["Deep Learning", "Computer Vision", "NLP", "Neural Networks"],
+  },
+  {
+    id: 2,
+    title: "Software Engineering & Development",
+    description:
+      "Research in software architecture, agile methodologies, testing frameworks, and development practices",
+    icon: "Code",
+    image:
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=700&fit=crop",
+    projects: 6,
+    faculty: ["Md. Manjur Ahmed", "Md. Irfanul Alam"],
+    keywords: [
+      "Software Architecture",
+      "Agile Development",
+      "Testing",
+      "DevOps",
+    ],
+  },
+  {
+    id: 3,
+    title: "Cybersecurity & Network Protection",
+    description:
+      "Advanced security protocols, encryption methods, network security, and ethical hacking research",
+    icon: "Shield",
+    image:
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=700&fit=crop",
+    projects: 5,
+    faculty: ["Md. Mahbub Hasan", "S.A.M. Shamsul Arefin"],
+    keywords: [
+      "Network Security",
+      "Encryption",
+      "Ethical Hacking",
+      "Blockchain",
+    ],
+  },
+  {
+    id: 4,
+    title: "Database Systems & Big Data",
+    description:
+      "Research in distributed databases, data mining, big data analytics, and cloud computing",
+    icon: "Database",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=700&fit=crop",
+    projects: 4,
+    faculty: ["Md. Mostafijur Rahman", "Tania Akter"],
+    keywords: ["Big Data", "Data Mining", "Cloud Computing", "NoSQL"],
+  },
+  {
+    id: 5,
+    title: "Human-Computer Interaction",
+    description:
+      "User experience design, interface optimization, accessibility research, and usability studies",
+    icon: "Users",
+    image:
+      "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=1200&h=700&fit=crop",
+    projects: 3,
+    faculty: ["Tania Akter", "Sohely Sharmin"],
+    keywords: ["UX Design", "Accessibility", "Usability", "Interface Design"],
+  },
+  {
+    id: 6,
+    title: "Mobile & Web Technologies",
+    description:
+      "Progressive web apps, mobile development, cross-platform solutions, and emerging web standards",
+    icon: "Smartphone",
+    image:
+      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&h=700&fit=crop",
+    projects: 7,
+    faculty: ["Md. Rashid Al Asif", "Md. Irfanul Alam"],
+    keywords: ["Mobile Development", "PWA", "React Native", "Flutter"],
+  },
+];
+
+// Ongoing Research Projects
+export const researchProjects = [
+  {
+    id: 1,
+    title: "AI-Powered Healthcare Diagnosis System",
+    description:
+      "Developing machine learning models for early disease detection using medical imaging and patient data analysis",
+    leadResearcher: "Dr. Rahat Hossain Faisal",
+    collaborators: [
+      "Md. Manjur Ahmed",
+      "2 PhD Students",
+      "5 Undergrad Students",
+    ],
+    startDate: "2024-01-15",
+    endDate: "2026-12-31",
+    status: "In Progress",
+    fundingAmount: "৳25,00,000",
+    fundingSource: "University Grant Commission",
+    image:
+      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=700&fit=crop",
+    progress: 45,
+    publications: 3,
+    keywords: [
+      "Healthcare AI",
+      "Medical Imaging",
+      "Deep Learning",
+      "Diagnosis",
+    ],
+  },
+  {
+    id: 2,
+    title: "Blockchain-Based Secure Voting System",
+    description:
+      "Creating a transparent and tamper-proof electronic voting system using blockchain technology for democratic processes",
+    leadResearcher: "Md. Mahbub Hasan",
+    collaborators: [
+      "S.A.M. Shamsul Arefin",
+      "1 PhD Student",
+      "4 Undergrad Students",
+    ],
+    startDate: "2024-03-01",
+    endDate: "2025-08-31",
+    status: "In Progress",
+    fundingAmount: "৳15,00,000",
+    fundingSource: "ICT Ministry",
+    image:
+      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=700&fit=crop",
+    progress: 65,
+    publications: 2,
+    keywords: ["Blockchain", "E-voting", "Security", "Democracy"],
+  },
+  {
+    id: 3,
+    title: "Smart City Traffic Management using IoT",
+    description:
+      "Intelligent traffic control system using IoT sensors and AI algorithms to optimize traffic flow in urban areas",
+    leadResearcher: "Md. Mostafijur Rahman",
+    collaborators: [
+      "Md. Irfanul Alam",
+      "3 Master's Students",
+      "6 Undergrad Students",
+    ],
+    startDate: "2023-09-01",
+    endDate: "2025-12-31",
+    status: "In Progress",
+    fundingAmount: "৳30,00,000",
+    fundingSource: "Bangladesh Computer Council",
+    image:
+      "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=1200&h=700&fit=crop",
+    progress: 75,
+    publications: 4,
+    keywords: ["Smart City", "IoT", "Traffic Management", "Urban Planning"],
+  },
+  {
+    id: 4,
+    title: "Natural Language Processing for Bengali Text Analysis",
+    description:
+      "Advanced NLP techniques for Bengali language processing, sentiment analysis, and text summarization",
+    leadResearcher: "Tania Akter",
+    collaborators: [
+      "Sohely Sharmin",
+      "2 Master's Students",
+      "3 Undergrad Students",
+    ],
+    startDate: "2024-06-01",
+    endDate: "2026-05-31",
+    status: "Starting",
+    fundingAmount: "৳18,00,000",
+    fundingSource: "National Science Foundation",
+    image:
+      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&h=700&fit=crop",
+    progress: 20,
+    publications: 1,
+    keywords: [
+      "NLP",
+      "Bengali Language",
+      "Sentiment Analysis",
+      "Text Processing",
+    ],
+  },
+];
+
+// Research Centers & Labs
+export const researchCenters = [
+  {
+    id: 1,
+    name: "Artificial Intelligence Research Center",
+    description:
+      "Dedicated facility for AI and machine learning research with high-performance computing resources",
+    director: "Dr. Rahat Hossain Faisal",
+    established: "2022",
+    staffCount: 12,
+    studentsCount: 25,
+    image:
+      "https://images.unsplash.com/photo-1635070041078-e363dbe005bc?w=1200&h=700&fit=crop",
+    facilities: [
+      "High-Performance GPU Clusters",
+      "Machine Learning Development Environment",
+      "Data Analytics Lab",
+      "Computer Vision Setup",
+    ],
+    majorProjects: 8,
+    partnerships: ["Google", "Microsoft", "IBM"],
+  },
+  {
+    id: 2,
+    name: "Cybersecurity Research Lab",
+    description:
+      "State-of-the-art cybersecurity research facility focusing on network security and ethical hacking",
+    director: "Md. Mahbub Hasan",
+    established: "2021",
+    staffCount: 8,
+    studentsCount: 15,
+    image:
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=700&fit=crop",
+    facilities: [
+      "Penetration Testing Environment",
+      "Network Security Lab",
+      "Cryptography Research Setup",
+      "Malware Analysis Chamber",
+    ],
+    majorProjects: 5,
+    partnerships: ["CISCO", "Palo Alto Networks", "CyberSecurity BD"],
+  },
+  {
+    id: 3,
+    name: "Software Engineering Innovation Hub",
+    description:
+      "Modern software development and testing facility with industry-standard tools and methodologies",
+    director: "Md. Manjur Ahmed",
+    established: "2020",
+    staffCount: 10,
+    studentsCount: 30,
+    image:
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=700&fit=crop",
+    facilities: [
+      "Agile Development Workspace",
+      "Continuous Integration Setup",
+      "Quality Assurance Lab",
+      "DevOps Infrastructure",
+    ],
+    majorProjects: 6,
+    partnerships: ["Atlassian", "GitHub", "Docker"],
+  },
+];
+
+// Research Publications
+export const researchPublications = [
+  {
+    id: 1,
+    title:
+      "Deep Learning Approaches for Early Stage Cancer Detection in Medical Imaging",
+    authors: ["Dr. Rahat Hossain Faisal", "Md. Manjur Ahmed", "Sarah Johnson"],
+    journal: "IEEE Transactions on Medical Imaging",
+    year: "2024",
+    type: "Journal Article",
+    citations: 45,
+    link: "#",
+    abstract:
+      "This paper presents novel deep learning methodologies for detecting early-stage cancer in medical imaging data...",
+    keywords: [
+      "Deep Learning",
+      "Medical Imaging",
+      "Cancer Detection",
+      "Healthcare AI",
+    ],
+  },
+  {
+    id: 2,
+    title: "Blockchain-Based Secure Authentication System for IoT Devices",
+    authors: ["Md. Mahbub Hasan", "S.A.M. Shamsul Arefin", "Alex Chen"],
+    journal: "Computer Networks",
+    year: "2024",
+    type: "Journal Article",
+    citations: 32,
+    link: "#",
+    abstract:
+      "We propose a novel blockchain-based authentication framework for securing IoT device communications...",
+    keywords: [
+      "Blockchain",
+      "IoT Security",
+      "Authentication",
+      "Distributed Systems",
+    ],
+  },
+  {
+    id: 3,
+    title:
+      "Optimizing Traffic Flow in Smart Cities using Reinforcement Learning",
+    authors: ["Md. Mostafijur Rahman", "Md. Irfanul Alam", "Lisa Wang"],
+    journal: "Transportation Research Part C",
+    year: "2024",
+    type: "Journal Article",
+    citations: 28,
+    link: "#",
+    abstract:
+      "This study explores the application of reinforcement learning algorithms to optimize traffic management systems...",
+    keywords: [
+      "Smart Cities",
+      "Reinforcement Learning",
+      "Traffic Optimization",
+      "Urban Computing",
+    ],
+  },
+  {
+    id: 4,
+    title:
+      "Natural Language Processing for Bengali Social Media Sentiment Analysis",
+    authors: ["Tania Akter", "Sohely Sharmin", "Rajesh Kumar"],
+    journal: "ACM Transactions on Asian Language Processing",
+    year: "2023",
+    type: "Journal Article",
+    citations: 38,
+    link: "#",
+    abstract:
+      "We present comprehensive methods for sentiment analysis of Bengali text from social media platforms...",
+    keywords: ["NLP", "Bengali Language", "Sentiment Analysis", "Social Media"],
+  },
+  {
+    id: 5,
+    title: "Usability Study of Mobile Banking Applications in Bangladesh",
+    authors: ["Tania Akter", "Dr. Rahat Hossain Faisal"],
+    journal: "International Journal of Human-Computer Studies",
+    year: "2023",
+    type: "Journal Article",
+    citations: 22,
+    link: "#",
+    abstract:
+      "This research evaluates the usability of mobile banking applications commonly used in Bangladesh...",
+    keywords: ["HCI", "Mobile Banking", "Usability", "User Experience"],
+  },
+];
+
+// Research Collaborations & Partnerships
+export const researchCollaborations = [
+  {
+    type: "International University",
+    name: "MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)",
+    country: "United States",
+    description: "Joint research in AI and machine learning applications",
+    startYear: "2023",
+    projects: 2,
+    image:
+      "https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=600&fit=crop",
+  },
+  {
+    type: "Industry Partner",
+    name: "Google AI Research",
+    country: "Global",
+    description:
+      "Collaboration on healthcare AI and natural language processing",
+    startYear: "2022",
+    projects: 3,
+    image:
+      "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=800&h=600&fit=crop",
+  },
+  {
+    type: "Government Institution",
+    name: "Bangladesh Computer Council",
+    country: "Bangladesh",
+    description: "Smart city and digital governance research initiatives",
+    startYear: "2021",
+    projects: 4,
+    image:
+      "https://images.unsplash.com/photo-1486312338219-ce68e2c6b7d7?w=800&h=600&fit=crop",
+  },
+  {
+    type: "Industry Partner",
+    name: "Microsoft Research Asia",
+    country: "Singapore",
+    description: "Cloud computing and cybersecurity research collaboration",
+    startYear: "2023",
+    projects: 2,
+    image:
+      "https://images.unsplash.com/photo-1551817958-11e0f7bbea9b?w=800&h=600&fit=crop",
+  },
+];
