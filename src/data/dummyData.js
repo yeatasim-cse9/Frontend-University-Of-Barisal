@@ -130,7 +130,7 @@ export const events = [
     description:
       "Expert seminar on artificial intelligence applications in healthcare sector",
     image:
-      "https://images.unsplash.com/photo-1581093588401-22afc7d3e3d5?w=1200&h=700&fit=crop",
+      "https://media.istockphoto.com/id/2161585533/photo/doctor-in-a-comfortable-office-using-ai-on-laptop-with-infographics-displayed.jpg?s=1024x1024&w=is&k=20&c=aJljYAxLlKac_kXqYcF5vPEmKuawnQFXkU3alwCMboo=",
   },
   {
     id: 3,

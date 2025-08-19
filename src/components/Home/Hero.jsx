@@ -7,7 +7,8 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('/src/assets/Hero.jpg')",
+          backgroundImage:
+            "url('https://scontent.fdac152-1.fna.fbcdn.net/v/t39.30808-6/486318092_1060671569430979_4381569954139479674_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=o_vEYGQTLm4Q7kNvwGgA6IE&_nc_oc=Adk5P41uaAsg6KPr5gdMdivJ6AWSQXZ-qQYpyc58cJi7XFGRwuIGn_b2ictZGOfYHoo&_nc_zt=23&_nc_ht=scontent.fdac152-1.fna&_nc_gid=jPRrBRHlk2prLfGOrIwCbQ&oh=00_AfXu8_CiGGZbHQvZ7927rkCN8s1q_XUJPj4g2uVohgcLUw&oe=68AA681A')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
