@@ -1,5 +1,3 @@
-// src/data/dummyData.js
-
 // =========================
 // Features Section (Homepage)
 // =========================
@@ -239,7 +237,8 @@ export const facultyMembers = [
   {
     id: 2,
     name: "Md. Manjur Ahmed",
-    designation: "Assistant Professor",
+    designation: "Associate Professor",
+    phone: "01739097182",
     email: "manjur_39@yahoo.com",
     image:
       "https://images.unsplash.com/photo-1603415526960-f7e0328f6e6c?w=500&h=500&fit=crop",
@@ -248,8 +247,8 @@ export const facultyMembers = [
   },
   {
     id: 3,
-    name: "Md. Mahbub Hasan",
-    designation: "Lecturer (On Study Leave)",
+    name: "Md. Mahbub E Noor",
+    designation: "Lecturer",
     phone: "01734094560",
     email: "mahbub0601001@gmail.com",
     image:
@@ -259,8 +258,9 @@ export const facultyMembers = [
   },
   {
     id: 4,
-    name: "Tania Akter",
-    designation: "Lecturer (On Study Leave)",
+    name: "Tania Islam",
+    designation: "Assistant Professor",
+    phone: "01739097182",
     email: "tania.bd.09@gmail.com",
     image:
       "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500&h=500&fit=crop",
@@ -270,7 +270,7 @@ export const facultyMembers = [
   {
     id: 5,
     name: "Md. Mostafijur Rahman",
-    designation: "Lecturer",
+    designation: "Assistant Professor",
     phone: "01739097182",
     email: "mostafij.csebu@gmail.com",
     image:
@@ -280,7 +280,7 @@ export const facultyMembers = [
   },
   {
     id: 6,
-    name: "Md. Irfanul Alam",
+    name: "Md. Erfan",
     designation: "Lecturer",
     phone: "01799598455",
     email: "irfan.bucse@gmail.com",
@@ -291,8 +291,8 @@ export const facultyMembers = [
   },
   {
     id: 7,
-    name: "S.A.M. Shamsul Arefin",
-    designation: "Lecturer",
+    name: "Md.Samsuddoha",
+    designation: "Assistant Professor",
     phone: "01737349075",
     email: "sams.csebu@gmail.com",
     image:
@@ -302,8 +302,8 @@ export const facultyMembers = [
   },
   {
     id: 8,
-    name: "Sohely Sharmin",
-    designation: "Lecturer",
+    name: "Sohely Jahan",
+    designation: "Assistant Professor",
     phone: "01317419066",
     email: "sohely.cse@gmail.com",
     image:
@@ -314,7 +314,7 @@ export const facultyMembers = [
   {
     id: 9,
     name: "Md. Rashid Al Asif",
-    designation: "Lecturer",
+    designation: "Assistant Professor",
     phone: "01734528367",
     email: "rashid.al.asif@gmail.com",
     image:
@@ -1540,5 +1540,218 @@ export const researchCollaborations = [
     projects: 2,
     image:
       "https://images.unsplash.com/photo-1551817958-11e0f7bbea9b?w=800&h=600&fit=crop",
+  },
+];
+
+// ==================== CONTACT PAGE DATA ====================
+
+// Department Contacts
+export const departmentContacts = [
+  {
+    id: 1,
+    department: "Academic Office",
+    description: "Course registration, transcripts, academic records",
+    phone: "+880431-2176860",
+    email: "academic@cse.bu.ac.bd",
+    office: "CSE Building, Room 201",
+    hours: "Sun-Thu: 9:00 AM - 5:00 PM",
+    icon: "GraduationCap",
+    color: "blue",
+  },
+  {
+    id: 2,
+    department: "Chairman Office",
+    description: "Department administration, faculty meetings, policies",
+    phone: "+8801733977761",
+    email: "chairman@cse.bu.ac.bd",
+    office: "CSE Building, Room 301",
+    hours: "Sun-Thu: 10:00 AM - 4:00 PM",
+    icon: "Crown",
+    color: "purple",
+  },
+  {
+    id: 3,
+    department: "Student Affairs",
+    description: "Student activities, clubs, grievances, counseling",
+    phone: "+880431-2176865",
+    email: "students@cse.bu.ac.bd",
+    office: "CSE Building, Room 105",
+    hours: "Sun-Thu: 9:00 AM - 6:00 PM",
+    icon: "Users",
+    color: "green",
+  },
+  {
+    id: 4,
+    department: "Research Office",
+    description: "Research proposals, funding, publications, collaborations",
+    phone: "+880431-2176862",
+    email: "research@cse.bu.ac.bd",
+    office: "CSE Building, Room 401",
+    hours: "Sun-Thu: 9:30 AM - 5:30 PM",
+    icon: "Search",
+    color: "teal",
+  },
+  {
+    id: 5,
+    department: "Lab Coordinator",
+    description: "Lab access, equipment, technical support, maintenance",
+    phone: "+880431-2176863",
+    email: "lab@cse.bu.ac.bd",
+    office: "CSE Building, Lab Complex",
+    hours: "Sun-Thu: 8:00 AM - 6:00 PM",
+    icon: "Settings",
+    color: "orange",
+  },
+  {
+    id: 6,
+    department: "Admission Office",
+    description: "Admission queries, application process, entrance exam",
+    phone: "+880431-2176864",
+    email: "admission@cse.bu.ac.bd",
+    office: "Main Building, Room 102",
+    hours: "Sun-Thu: 9:00 AM - 5:00 PM, Sat: 9:00 AM - 1:00 PM",
+    icon: "FileText",
+    color: "indigo",
+  },
+];
+
+// Quick Contact Categories
+export const quickContacts = [
+  {
+    category: "Emergency",
+    contacts: [
+      {
+        title: "University Security",
+        phone: "+880431-2176870",
+        available: "24/7",
+      },
+      {
+        title: "Medical Emergency",
+        phone: "+880431-2176871",
+        available: "24/7",
+      },
+      {
+        title: "Campus Maintenance",
+        phone: "+880431-2176872",
+        available: "24/7",
+      },
+    ],
+    icon: "AlertTriangle",
+    color: "red",
+  },
+  {
+    category: "Academic Support",
+    contacts: [
+      {
+        title: "Academic Advisor",
+        phone: "+880431-2176860",
+        available: "9 AM - 5 PM",
+      },
+      {
+        title: "Exam Controller",
+        phone: "+880431-2176861",
+        available: "9 AM - 5 PM",
+      },
+      {
+        title: "Library Services",
+        phone: "+880431-2176867",
+        available: "8 AM - 8 PM",
+      },
+    ],
+    icon: "BookOpen",
+    color: "blue",
+  },
+  {
+    category: "Technical Support",
+    contacts: [
+      {
+        title: "IT Help Desk",
+        phone: "+880431-2176868",
+        available: "9 AM - 6 PM",
+      },
+      {
+        title: "Network Support",
+        phone: "+880431-2176869",
+        available: "9 AM - 6 PM",
+      },
+      {
+        title: "Software Licensing",
+        phone: "+880431-2176865",
+        available: "10 AM - 4 PM",
+      },
+    ],
+    icon: "Monitor",
+    color: "green",
+  },
+];
+
+// Office Hours
+export const officeHours = {
+  regular: {
+    days: "Sunday - Thursday",
+    time: "9:00 AM - 5:00 PM",
+  },
+  saturday: {
+    days: "Saturday",
+    time: "9:00 AM - 1:00 PM (Admission Office Only)",
+  },
+  holidays: {
+    days: "Friday & Government Holidays",
+    time: "Closed",
+  },
+  ramadan: {
+    days: "During Ramadan",
+    time: "9:00 AM - 3:00 PM",
+  },
+};
+
+// Contact Form Fields Configuration
+export const contactFormFields = [
+  { name: "name", label: "Full Name", type: "text", required: true },
+  { name: "email", label: "Email Address", type: "email", required: true },
+  { name: "phone", label: "Phone Number", type: "tel", required: false },
+  {
+    name: "category",
+    label: "Category",
+    type: "select",
+    required: true,
+    options: [
+      "General Inquiry",
+      "Admission Query",
+      "Academic Support",
+      "Technical Issue",
+      "Research Collaboration",
+      "Other",
+    ],
+  },
+  { name: "subject", label: "Subject", type: "text", required: true },
+  { name: "message", label: "Message", type: "textarea", required: true },
+];
+
+// Social Media Links
+export const socialMediaLinks = [
+  {
+    platform: "Facebook",
+    url: "https://facebook.com/bucse",
+    icon: "Facebook",
+    color: "blue",
+  },
+  {
+    platform: "LinkedIn",
+    url: "https://linkedin.com/company/bu-cse",
+    icon: "Linkedin",
+    color: "blue",
+  },
+  {
+    platform: "YouTube",
+    url: "https://youtube.com/@bucse",
+    icon: "Youtube",
+    color: "red",
+  },
+  {
+    platform: "Twitter",
+    url: "https://twitter.com/bucse",
+    icon: "Twitter",
+    color: "blue",
   },
 ];
